@@ -226,12 +226,12 @@ you to send content via TCP:
 
 ```console
 # Using BSD netcat (Debian, Ubuntu, MacOS system, ...)
-$ cat /path/to/logfile.log | nc -q0 localhost 5000
+$ cat /path/to/logfile.log | nc -q0 localhost 5555
 ```
 
 ```console
 # Using GNU netcat (CentOS, Fedora, MacOS Homebrew, ...)
-$ cat /path/to/logfile.log | nc -c localhost 5000
+$ cat /path/to/logfile.log | nc -c localhost 5555
 ```
 
 You can also load the sample data provided by your Kibana installation.
