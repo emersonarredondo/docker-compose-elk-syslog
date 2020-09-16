@@ -1,5 +1,22 @@
 # Elastic stack (ELK) on Docker
 
+**
+This config is dedicated for syslog (TCP/UDP port 514). The only command to kick start is
+```console
+$ docker-compose up
+```
+The only command to shutdown is
+```console
+$ docker-compose down -v
+```
+
+All accounts are set as
+* user: *elastic*
+* password: *changeme*
+
+Please read below if you want more details
+**
+
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Elastic Stack version](https://img.shields.io/badge/ELK-7.9.1-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/529)
 [![Build Status](https://api.travis-ci.org/deviantony/docker-elk.svg?branch=master)](https://travis-ci.org/deviantony/docker-elk)
@@ -151,8 +168,7 @@ $ docker-compose down -v
 
 The stack is pre-configured with the following **privileged** bootstrap user:
 
-* user: *elastic*
-* password: *changeme*
+
 
 Although all stack components work out-of-the-box with this user, we strongly recommend using the unprivileged [built-in
 users][builtin-users] instead for increased security.
