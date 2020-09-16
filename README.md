@@ -1,6 +1,10 @@
 # Elastic stack (ELK) on Docker
 
-This config is dedicated for syslog (TCP/UDP port 514). The only command to kick start is
+This config is dedicated for syslog (TCP/UDP port 514).
+
+However, by default we have to root if we use the port < 1000, so I forward the external 514 port into internal 5555 port to fix this issue.
+
+The only command to kick start is
 ```console
 $ docker-compose up
 ```
