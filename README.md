@@ -1,6 +1,5 @@
 # Elastic stack (ELK) on Docker
 
-**
 This config is dedicated for syslog (TCP/UDP port 514). The only command to kick start is
 ```console
 $ docker-compose up
@@ -15,7 +14,7 @@ All accounts are set as
 * password: *changeme*
 
 Please read below if you want more details
-**
+
 
 [![Join the chat at https://gitter.im/deviantony/docker-elk](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/deviantony/docker-elk?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Elastic Stack version](https://img.shields.io/badge/ELK-7.9.1-blue.svg?style=flat)](https://github.com/deviantony/docker-elk/issues/529)
