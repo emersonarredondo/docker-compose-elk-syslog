@@ -13,6 +13,8 @@ the visualization power of Kibana.
 with [paid features][paid-features] enabled by default (see [How to disable paid features](#how-to-disable-paid-features)
 to disable them). **The [trial license][trial-license] is valid for 30 days**.*
 
+**In this config, I already set the license as basic, which is totally free of charge.**
+
 Based on the official Docker images from Elastic:
 
 * [Elasticsearch](https://github.com/elastic/elasticsearch/tree/master/distribution/docker)
@@ -67,7 +69,7 @@ Other available stack variants:
 interact with the Docker daemon.*
 
 By default, the stack exposes the following ports:
-* 5000: Logstash TCP input
+* 5555: Logstash TCP input
 * 9200: Elasticsearch HTTP
 * 9300: Elasticsearch TCP transport
 * 5601: Kibana
